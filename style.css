@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: grey;
+    color: white;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul{
+    text-decoration: none;
+    list-style: none;
+
+}
+main{
+    width: 80%;
+    margin-left: 100px;
+    background-color: antiquewhite;
+    
+}
+button[type="submit"]{
+    background-color: aqua;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Expense Tracker</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav">
+            <h1>Expense Tracker</h1>
+            <div>
+                <ul>
+                    <li>Home</a></li>
+                    <li>Expenses</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <h1>Shushant's Expense Tracker</h1>
+        <form>
+            <label for="amount">Amount</label>
+            <input placeholder="Enter a amount" type="number" id="amount">
+
+            <label for="category"> Select Category</label>
+            <select name="category" id="category">
+                <option value="">food</option>
+                <option value="">Travel</option>
+                <option value="">Entertainment</option>
+                <option value="">Office</option>
+            </select>
+
+            <label for="description">Description</label>
+            <input placeholder="Write a something !!" type="text" id="description">
+
+            <button type="submit" id="submit">Submit</button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Amount</th>
+                    <th>Description</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Food</td>
+                    <td>Rs: 200</td>
+                    <td>MO:MO</td>
+                    <td> <button> Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
